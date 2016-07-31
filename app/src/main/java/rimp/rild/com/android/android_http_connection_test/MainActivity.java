@@ -61,11 +61,8 @@ public class MainActivity extends AppCompatActivity {
         Button button = new Button(this);
         button.setText(text);
         button.setTag(tag);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        button.setOnClickListener((View v) -> {
 
-            }
         });
     }
 }
